@@ -9,7 +9,8 @@ import {
 import Image from "../designLayouts/Image";
 
 const Banner = () => {
-  const [dotActive, setDocActive] = useState(0);
+  const [dotActive, setDotActive] = useState(0);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -18,14 +19,14 @@ const Banner = () => {
     slidesToScroll: 1,
     arrows: false,
     beforeChange: (prev, next) => {
-      setDocActive(next);
+      setDotActive(next);
     },
     appendDots: (dots) => (
       <div
         style={{
           position: "absolute",
           top: "50%",
-          left: "7%",
+          left: "5%",
           transform: "translateY(-50%)",
         }}
       >
@@ -99,25 +100,28 @@ const Banner = () => {
       },
     ],
   };
+
   return (
-    <div className="w-full bg-white">
-      <Slider {...settings}>
-        <Link to="/offer">
-          <div>
-            <Image imgSrc={bannerImgOne} />
-          </div>
-        </Link>
-        <Link to="/offer">
-          <div>
-            <Image imgSrc={bannerImgTwo} />
-          </div>
-        </Link>
-        <Link to="/offer">
-          <div>
-            <Image imgSrc={bannerImgThree} />
-          </div>
-        </Link>
-      </Slider>
+    <div className="w-full bg-white flex justify-center py-6">
+      <div className="max-w-5xl w-full">
+        <Slider {...settings}>
+          <Link to="/offer">
+            <div>
+              <Image imgSrc={bannerImgOne} />
+            </div>
+          </Link>
+          <Link to="/offer">
+            <div>
+              <Image imgSrc={bannerImgTwo} />
+            </div>
+          </Link>
+          <Link to="/offer">
+            <div>
+              <Image imgSrc={bannerImgThree} />
+            </div>
+          </Link>
+        </Slider>
+      </div>
     </div>
   );
 };

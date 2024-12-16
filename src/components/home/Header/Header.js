@@ -32,7 +32,7 @@ const Header = () => {
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
             <div>
-              <Image className="w-20 object-cover" imgSrc={logo} />
+              <h3>Xyphor</h3>
             </div>
           </Link>
           <div>
@@ -106,12 +106,11 @@ const Header = () => {
                           transition={{ duration: 0.4 }}
                           className="text-sm flex flex-col gap-1"
                         >
-                          <li className="headerSedenavLi">New Arrivals</li>
-                          <li className="headerSedenavLi">Gudgets</li>
-                          <li className="headerSedenavLi">Accessories</li>
-                          <li className="headerSedenavLi">Electronics</li>
-                          <li className="headerSedenavLi">Others</li>
-                        </motion.ul>
+  <li className="headerSedenavLi">New Arrivals</li>
+                          <li className="headerSedenavLi">Bags</li>
+                          <li className="headerSedenavLi">Pens</li>
+                          <li className="headerSedenavLi">Books</li>
+                          <li className="headerSedenavLi">Others</li>                        </motion.ul>
                       )}
                     </div>
                     <div className="mt-4">
@@ -130,9 +129,9 @@ const Header = () => {
                           className="text-sm flex flex-col gap-1"
                         >
                           <li className="headerSedenavLi">New Arrivals</li>
-                          <li className="headerSedenavLi">Gudgets</li>
-                          <li className="headerSedenavLi">Accessories</li>
-                          <li className="headerSedenavLi">Electronics</li>
+                          <li className="headerSedenavLi">Bags</li>
+                          <li className="headerSedenavLi">Pens</li>
+                          <li className="headerSedenavLi">Books</li>
                           <li className="headerSedenavLi">Others</li>
                         </motion.ul>
                       )}

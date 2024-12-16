@@ -54,8 +54,8 @@ const NewArrivals = () => {
           <Product
             _id="100001"
             img={newArrOne}
-            productName="Round Table Clock"
-            price="44.00"
+            productName="Pilot Pen"
+            price="100.00"
             color="Black"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -65,8 +65,8 @@ const NewArrivals = () => {
           <Product
             _id="100002"
             img={newArrTwo}
-            productName="Smart Watch"
-            price="250.00"
+            productName="Mheecha Bag"
+            price="2800.00"
             color="Black"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -76,7 +76,7 @@ const NewArrivals = () => {
           <Product
             _id="100003"
             img={newArrThree}
-            productName="cloth Basket"
+            productName="Pencil Case"
             price="80.00"
             color="Mixed"
             badge={true}
@@ -87,24 +87,14 @@ const NewArrivals = () => {
           <Product
             _id="100004"
             img={newArrFour}
-            productName="Funny toys for babies"
-            price="60.00"
+            productName="Drawing Boards"
+            price="20.00"
             color="Mixed"
             badge={false}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />
         </div>
-        <div className="px-2">
-          <Product
-            _id="100005"
-            img={newArrTwo}
-            productName="Funny toys for babies"
-            price="60.00"
-            color="Mixed"
-            badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
-          />
-        </div>
+       
       </Slider>
     </div>
   );

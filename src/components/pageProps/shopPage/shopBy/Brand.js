@@ -7,23 +7,23 @@ const Brand = () => {
   const brands = [
     {
       _id: 9006,
-      title: "Apple",
+      title: "Natraj",
     },
     {
       _id: 9007,
-      title: "Ultron",
+      title: "<Mjeecha>",
     },
     {
       _id: 9008,
-      title: "Unknown",
+      title: "Books",
     },
     {
       _id: 9009,
-      title: "Shoppers Home",
+      title: "Doms",
     },
     {
       _id: 9010,
-      title: "Hoichoi",
+      title: "Camel",
     },
   ];
 
